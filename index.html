@@ -1,189 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./assests/css/styles.css" />
 
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">JESWANTH</a>
-            </div>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-
-            </div>
-        </nav>
-
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">JESWANTH</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
 
     <main class="l-main">
-        <!-- home -->
-        <section class="home section" id="home">
-            <div class="home__container bg-grid">
-                <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+      <!-- home -->
+      <section class="home section" id="home">
+        <div class="home__container bg-grid">
+          <h1 class="home__title"><span>HE</span><br />LLO.</h1>
 
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-link"><i class="bx bx-up-arrow-alt"></i>Scroll Down</a>
-                </div>
-                <img src="./assests/images/code.png" alt="" class="home__img">
-                
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll Down</a
+            >
+          </div>
+          <img src="./assests/images/code.png" alt="" class="home__img" />
+        </div>
+      </section>
+      <!-- about -->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="./assests/images/IMG_20200920_110329.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">
+              I'am <span>Jeswanth Vadlamudi</span>
+            </h2>
+            <span class="about__profession">Web Developer</span>
+            <p class="about__text">Very Much interested in Web development!</p>
+            <div class="about__social">
+              <a
+                href="https://www.linkedin.com/in/jeswanth-vadlamudi-a53364187/"
+                class="about__social-icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="https://github.com/jeswanthv" class="about__social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/jeswanthv_06/?hl=en"
+                class="about__social-icon"
+                ><i class="bx bxl-instagram"></i
+              ></a>
             </div>
-        </section>
-        <!-- about -->
-        <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="./assests/images/IMG_20200920_110329.jpg" alt="">
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle">I'am <span>Jeswanth Vadlamudi</span> </h2>
-                    <span class="about__profession">Web Developer</span>
-                    <p class="about__text">Very Much interested in Web development!</p>
-                    <div class="about__social">
-                        <a href="https://www.linkedin.com/in/jeswanth-vadlamudi-a53364187/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                        <a href="https://github.com/jeswanthv" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                        <a href="https://www.instagram.com/jeswanthv_06/?hl=en" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
-
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills__container bg-grid">
+          <div class="skills_box">
+            <h3 class="skills__subtitle">Development</h3>
+            <span class="skills__name">Html</span>
+            <span class="skills__name">Css</span>
+            <span class="skills__name">JavaScript</span>
+            <span class="skills__name">ReactJs</span>
+            <span class="skills__name">Python</span>
+            <span class="skills__name">Django</span>
+            <span class="skills__name">DjangoRest</span>
+            <span class="skills__name">C</span>
+            <span class="skills__name">C++</span>
+          </div>
+          <div class="skills__img">
+            <img src="./assests/images/skill.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- portfolio -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio(click on images)</h2>
+        <div class="portfolio__container bg-grid">
+          <div class="portfolio__img">
+            <img src="./assests/images/Work1.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://psyboys.netlify.app/"
+                class="portfolio__link-name"
+                >View details</a
+              >
             </div>
-        </section>
-        <!-- Skills -->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills__container bg-grid">
-                <div class="skills_box">
-                    <h3 class="skills__subtitle">Development</h3>
-                    <span class="skills__name">Html</span>
-                    <span class="skills__name">Css</span>
-                    <span class="skills__name">JavaScript</span>
-                    <span class="skills__name">ReactJs</span>
-                    <span class="skills__name">Python</span>
-                    <span class="skills__name">Django</span>
-                    <span class="skills__name">DjangoRest</span>
-                    <span class="skills__name">C</span>
-                    <span class="skills__name">C++</span>
-                </div>
-                <div class="skills__img">
-                    <img src="./assests/images/skill.jpg" alt="">
-                </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="./assests/images/Work2.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://jeswanthv.github.io/Pigame/"
+                class="portfolio__link-name"
+                >View details</a
+              >
             </div>
-        </section>
-        <!-- portfolio -->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section-title">Portfolio(click on images)</h2>
-            <div class="portfolio__container bg-grid">
-                
-                <div class="portfolio__img">
-                    <img src="./assests/images/Work1.png" alt="">
-                    <div class="portfolio__link">
-                        <a href="https://psyboys.netlify.app/" class="portfolio__link-name">View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="./assests/images/Work2.png" alt="">
-                    <div class="portfolio__link">
-                        <a href="https://jeswanthv.github.io/Pigame/" class="portfolio__link-name">View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="./assests/images/Work3.png" alt="">
-                    <div class="portfolio__link">
-                        <a href="https://jeswanthv.github.io/VirusTracker-react/" class="portfolio__link-name">View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="./assests/images/Work4.png" alt="">
-                    <div class="portfolio__link">
-                        <a href="https://instagram-clone-react-eb3e4.web.app/" class="portfolio__link-name">View details</a>
-                    </div>
-                </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="./assests/images/Work3.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://jeswanthv.github.io/VirusTracker-react/"
+                class="portfolio__link-name"
+                >View details</a
+              >
             </div>
-        </section>
-        <!-- contact -->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact__container bg-grid">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">EMAIL</h3>
-                    <span>jeswanthv001@gmail.com</span>
-
-                    <h3 class="contact__subtitle">PHONE</h3>
-                    <span>+91 9150182557</span>
-
-                    <h3 class="contact__subtitle">ADDRESS</h3>
-                    <span>Chennai,Tamil_Nadu,India</span>
-                </div>
-                <form action="POST" data-netlify="true" class="contact">
-                    <div class="contact__inputs">
-                        <input type="text" name="name" placeholder="Name" class="contact__input">
-                        <input type="mail" name="email" placeholder="Email" class="contact__input">
-                    </div>
-
-                    <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="submit" value="Submit" class="contact__button">
-                    <div class="field">
-                        <div data-netlify-recaptcha="true"></div>
-                    </div>
-                </form>
+          </div>
+          <div class="portfolio__img">
+            <img src="./assests/images/Work4.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://jeswanth-contactkeeper.herokuapp.com/"
+                class="portfolio__link-name"
+                >View details</a
+              >
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
 
-        <!-- footer -->
-        <footer class="footer section">
-            <div class="footer__container bg-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">JESWANTH VADLAMUDI</h2>
-                    <p class="footer__text">I'm Jeswanth Vadlamudi and this is my personal website</p>
-                </div>
+        <div class="contact__container bg-grid">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span>jeswanthv001@gmail.com</span>
 
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">About</a></li>
-                        <li><a href="#skills" class="footer__link">Skills</a></li>
-                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#contact" class="footer__link">Contact</a></li>
-                    </ul>
-                </div>
+            <h3 class="contact__subtitle">PHONE</h3>
+            <span>+91 9150182557</span>
 
-                <div class="footer__data">
-                    <h2 class="footer__title">FOLLOW</h2>
-                    <a href="https://www.facebook.com/jeswanth.2001" class="footer__social"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://www.instagram.com/jeswanthv_06/?hl=en" class="footer__social"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://www.linkedin.com/in/jeswanth-vadlamudi-a53364187/" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
-                </div>
+            <h3 class="contact__subtitle">ADDRESS</h3>
+            <span>Chennai,Tamil_Nadu,India</span>
+          </div>
+          <form action="POST" data-netlify="true" class="contact">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="contact__input"
+              />
+              <input
+                type="mail"
+                name="email"
+                placeholder="Email"
+                class="contact__input"
+              />
             </div>
-        </footer>
 
+            <textarea
+              name="message"
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input type="submit" value="Submit" class="contact__button" />
+            <div class="field">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer section">
+        <div class="footer__container bg-grid">
+          <div class="footer__data">
+            <h2 class="footer__title">JESWANTH VADLAMUDI</h2>
+            <p class="footer__text">
+              I'm Jeswanth Vadlamudi and this is my personal website
+            </p>
+          </div>
+
+          <div class="footer__data">
+            <h2 class="footer__title">EXPLORE</h2>
+            <ul>
+              <li><a href="#home" class="footer__link">Home</a></li>
+              <li><a href="#about" class="footer__link">About</a></li>
+              <li><a href="#skills" class="footer__link">Skills</a></li>
+              <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+              <li><a href="#contact" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h2 class="footer__title">FOLLOW</h2>
+            <a
+              href="https://www.facebook.com/jeswanth.2001"
+              class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/jeswanthv_06/?hl=en"
+              class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/jeswanth-vadlamudi-a53364187/"
+              class="footer__social"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
     </main>
 
-
-    
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
